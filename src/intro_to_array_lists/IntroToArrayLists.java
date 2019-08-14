@@ -3,6 +3,9 @@ package intro_to_array_lists;
 import java.util.ArrayList;
 
 public class IntroToArrayLists {
+
+
+
 	public static void main(String[] args) {
 		//1. Create an array list of Strings
 		//   Don't forget to import the ArrayList class
@@ -22,8 +25,16 @@ public class IntroToArrayLists {
 			System.out.println(string);
 		}
 		//5. Print only the even numbered elements in the list.
+		for (int i = 0; i < names.size(); i++) {
+			
 		
-		//6. Print all the Strings in reverse order.
+		 
+		
+		//	if()
+		
+				
+		}
+				//6. Print all the Strings in reverse order.
 		
 		//7. Print only the Strings that have the letter 'e' in them.
 	}
