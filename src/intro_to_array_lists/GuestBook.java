@@ -14,11 +14,24 @@ public class GuestBook implements ActionListener{
 	JPanel jp = new JPanel();
 	JButton jb = new JButton();
 	JButton jb1 = new JButton();
+	
+	int x;
+	int y;
+	
+	
+	
+	
 	ArrayList<String> guests = new ArrayList<String>();
 	// Create a GUI with two buttons. One button reads "Add Name" and the other button reads "View Names". 
 	public static void main(String[] args) {
 		GuestBook gb = new GuestBook();
 		gb.setup();
+		
+	
+		
+		
+		
+		
 		
 	}
 	void setup() {
