@@ -28,14 +28,31 @@ public class IntroToArrayLists {
 		for (int i = 0; i < names.size(); i++) {
 			
 		
-		 
+		 	if(i%2==0) {
+		 		System.out.println(names.get(i));
+		 	}
 		
-		//	if()
-		
-				
+			
+		 		
+		 		
 		}
 				//6. Print all the Strings in reverse order.
-		
+		for (int i = names.size()-1; i > 0; i--) {
+			
+			System.out.println(names.get(i));
+			System.out.println("\n");
+		}
 		//7. Print only the Strings that have the letter 'e' in them.
+		
+		for (int i = 0; i < names.size(); i++) {
+			if(names.get(i).contains("e")) {
+				System.out.println("\n");
+				System.out.println(names.get(i));
+				
+			}
+			
+		 		
+		 		
+		}
 	}
 }
